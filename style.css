@@ -1,0 +1,69 @@
+html, body {
+    height: 100%;
+    font-family: "Bookman Old Style";
+    background: steelblue;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.todo-container {
+    width: 55%;
+    height:80%;
+    padding: 50px;
+    background-color: #4e8dc1;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.input-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-container input{
+    width: calc(100% - 80px);
+    height: 30px;
+    outline-color: white;
+}
+.input-container button {
+    background-color: #cc0066;
+    height: 36px;
+    border: none;
+    color: white;
+    cursor:pointer;
+    border-radius: 5px;
+    font-family: "Bookman Old Style";
+    font-size: 12px;
+}
+.input-container button:hover {
+    background-color:  #800040;
+}
+
+.todo-list{
+    list-style-type: none;
+}
+.todo-list-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.todo-list-item button {
+    border: none;
+    height: 40px;
+    width: 60px;
+    border-radius: 5px;
+    background-color: yellow;
+    cursor:pointer;
+    transition: background-color 0.3s ease;
+}
+.todo-list-item button:hover {
+    background-color:  #b3b300;
+}
